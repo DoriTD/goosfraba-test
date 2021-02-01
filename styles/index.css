@@ -1,0 +1,32 @@
+.bar{
+	fill: #28C587;
+}
+/* Lighten the axis lines */
+#x-axis path,#y-axis line, #y-axis path{
+	stroke: #666;
+}
+/* Remove the tick marks on the x-axis */
+#x-axis .tick line{
+	visibility: hidden;
+}
+
+text{
+	fill: #666;
+	font-size: 12px;
+}
+
+#x-axis text {
+	font-weight: 600;
+}
+
+body{
+    margin: 0;
+}
+.chart{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
